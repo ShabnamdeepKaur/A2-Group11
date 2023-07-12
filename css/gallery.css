@@ -1,0 +1,33 @@
+#thumbnailList li img {
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+
+#thumbnailList li img.active {
+	filter: grayscale(0%);
+}
+
+/* HEADING */
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(170, 13, 13);
+    text-shadow: 1px 2px 5px red;
+}
+
+/* TO DISPLAY MAIN IMAGE AND THUMBNAILS ON THE SAME ROW */
+figure{
+    float: left;
+}
+
+ul{
+    float: left;
+}
+
+/* CAPTION OF THE IMAGE */
+figcaption{
+    text-align: center;
+    color: rgb(119, 49, 184);
+    font-size: x-large;
+    font-weight: bolder;
+}
